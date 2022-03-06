@@ -1918,7 +1918,8 @@ class blank_apl
       header("X-XSS-Protection: 1; mode=block");
       header("X-Frame-Options: SAMEORIGIN");
       $_SESSION['scriptcase']['blank']['contr_erro'] = 'on';
-  <?php
+?>
+<?php
 
 $data = json_decode(file_get_contents('php://input'), true);
 
@@ -2247,8 +2248,8 @@ function auth()
 $_SESSION['scriptcase']['blank']['contr_erro'] = 'on';
   
 {
-    "Authorization": "Token 1234567890ASDFGHJKL",
-    "Content-Type": "application/json"
+    "Authorization" > "Token 1234567890ASDFGHJKL";
+    "Content-Type" > "application/json" ;
 }
 
 $_SESSION['scriptcase']['blank']['contr_erro'] = 'off';
